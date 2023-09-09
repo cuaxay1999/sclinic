@@ -17,6 +17,7 @@ export const metadata = {
   title: "SClinic - smart clinic",
   description:
     "SCLINIC - ứng dụng quản lý chuyên nghiệp dành riêng cho ngành y tế, nha khoa,… Phù hợp với phòng khám nhỏ và các chuỗi phòng khám.",
+  keywords: ["SCLINIC", "phòng khám", "smart clinic", "ứng dụng quản lý"],
 };
 
 export default function RootLayout({ children }) {
