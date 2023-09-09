@@ -16,7 +16,7 @@ const roboto = Roboto({
 export const metadata = {
   title: "SClinic - smart clinic",
   description:
-    "SCLINIC - ứng dụng quản lý chuyên nghiệp dành riêng cho ngành y tế, nha khoa,… Ứng dụng đưa ra hàng loạt giải pháp thông minh, tập trung vào đúng quy trình nghiệp vụ, phù hợp với phòng khám nhỏ và các chuỗi phòng khám.",
+    "SCLINIC - ứng dụng quản lý chuyên nghiệp dành riêng cho ngành y tế, nha khoa,… Ứng dụng tập trung vào đúng quy trình nghiệp vụ, phù hợp với phòng khám nhỏ và các chuỗi phòng khám.",
 };
 
 export default function RootLayout({ children }) {
