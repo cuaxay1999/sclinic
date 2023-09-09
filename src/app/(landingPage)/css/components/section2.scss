@@ -1,0 +1,26 @@
+.section-2 {
+  background-size: cover;
+
+  .ant-col {
+    &__content {
+      width: 500px;
+      max-width: 100%;
+
+      .txt-sshop {
+        color: #068B68;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .section-2 {
+    .ant-col {
+      &__content {
+        width: 100%;
+      }
+    }
+  }
+}
