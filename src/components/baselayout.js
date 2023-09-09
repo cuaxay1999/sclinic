@@ -23,7 +23,7 @@ import { navigatePages } from "@/utils/helpers/navigate";
 export default function BaseLayout({ children }) {
   const [isMobile, setIsMobile] = useState(false);
   const { push } = useRouter();
-  if (window) {
+  if (typeof window !== "undefined") {
     window.navigatePage = (name, params = {}, query = {}) =>
       navigatePages(push, name, params, query);
     window.isMobile = isMobile;
