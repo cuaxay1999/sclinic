@@ -10,6 +10,7 @@ import ROUTERS from "@/utils/constants/routers";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import Link from "next/link";
 
 const NavBar = (props) => {
   const { handleToggleMenuMobile } = props;
@@ -24,11 +25,25 @@ const NavBar = (props) => {
     icon: typeof window !== "undefined" && window.isMobile ? it?.icon : null,
   }));
 
-  const menuOnClick = (item) => {
-    if (item.key !== "SELECT_LANGUAGE" && item.key !== "BUTTON_PHONE") {
-      window.navigatePage(item?.key);
-    }
-  };
+  console.log(itemMenu);
+
+  const itemButton = ROUTERS.LANDING_PAGE.filter((it) => it.onMenu).map(
+    (it) => ({
+      laybel: (
+        <Link key={it?.name} href={it?.path}>
+          {it?.label}
+        </Link>
+      ),
+    })
+  );
+
+  console.log(itemButton);
+
+  // const menuOnClick = (item) => {
+  //   if (item.key !== "SELECT_LANGUAGE" && item.key !== "BUTTON_PHONE") {
+  //     window.navigatePage(item?.key);
+  //   }
+  // };
 
   const callSupport = () => {
     if (typeof window !== "undefined") {
@@ -56,7 +71,27 @@ const NavBar = (props) => {
               : "horizontal"
           }
           items={[
-            ...itemMenu,
+            // ...itemMenu,
+            {
+              label: <Link href="/">Trang chủ</Link>,
+              key: "HOME_PAGE",
+            },
+            {
+              label: <Link href="/news">Tin tức</Link>,
+              key: "NEWS_PAGE",
+            },
+            {
+              label: <Link href="/pricing-page">Bảng giá</Link>,
+              key: "PRICING_PAGE",
+            },
+            {
+              label: <Link href="/contact-page">Liên hệ</Link>,
+              key: "CONTACT_PAGE",
+            },
+            {
+              label: <Link href="/guides">Hướng dẫn</Link>,
+              key: "GUIDES",
+            },
             {
               label: <SelectLanguage />,
               key: "SELECT_LANGUAGE",
@@ -75,7 +110,7 @@ const NavBar = (props) => {
               key: "BUTTON_PHONE",
             },
           ]}
-          onClick={menuOnClick}
+          // onClick={menuOnClick}
         />
       </div>
     </div>
