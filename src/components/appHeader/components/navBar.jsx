@@ -25,8 +25,6 @@ const NavBar = (props) => {
     icon: typeof window !== "undefined" && window.isMobile ? it?.icon : null,
   }));
 
-  console.log(itemMenu);
-
   const itemButton = ROUTERS.LANDING_PAGE.filter((it) => it.onMenu).map(
     (it) => ({
       laybel: (
@@ -36,8 +34,6 @@ const NavBar = (props) => {
       ),
     })
   );
-
-  console.log(itemButton);
 
   // const menuOnClick = (item) => {
   //   if (item.key !== "SELECT_LANGUAGE" && item.key !== "BUTTON_PHONE") {

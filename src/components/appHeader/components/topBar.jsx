@@ -1,4 +1,3 @@
-"use client";
 import { Button } from "antd";
 import { LogoSSHOP } from "../../../assets/images/index";
 import Image from "next/image";

@@ -1,3 +1,5 @@
+"use client";
+
 import { Row, Col, Button } from "antd";
 import { ImageBanner1 } from "../../../assets/images";
 import BtnRegister from "../../../components/btnRegister";

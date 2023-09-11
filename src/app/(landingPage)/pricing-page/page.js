@@ -1,14 +1,9 @@
-"use client";
-
 import "./css/index.scss";
 import { Col, Divider, Row } from "antd";
 import { CheckOutlined } from "@mui/icons-material";
-import BtnRegister from "@/components/btnRegister";
-import { useSelector } from "react-redux";
+import ButtonRegister from "./components/buttonRegister";
 
 const PricingPage = () => {
-  const texts = useSelector((state) => state.system.texts);
-
   return (
     <div className="landing-page contact-page">
       <div className="section" style={{ backgroundColor: "#efefef" }}>
@@ -486,7 +481,7 @@ const PricingPage = () => {
 
           <Col md={24} xs={24} className="flexbox-center">
             <div className="mt-24 w-full flexbox-center">
-              <BtnRegister txtBtn={texts?.SIGN_UP_TRIAL} />
+              <ButtonRegister />
             </div>
           </Col>
 

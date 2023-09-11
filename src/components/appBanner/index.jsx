@@ -1,7 +1,6 @@
-"use client";
+// "use client";
 
 import Banner1 from "./component/banner1";
-import Slider from "react-slick";
 
 import "./css/index.scss";
 

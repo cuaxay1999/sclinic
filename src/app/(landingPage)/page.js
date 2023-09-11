@@ -1,4 +1,3 @@
-// "use client";
 import Section1 from "./components/section1";
 import Section2 from "./components/section2";
 import Section3 from "./components/section3";
@@ -15,8 +14,6 @@ const HomePage = () => {
   // const handleGoToServicePriceList = () => {
   //   // window.location.href = "#service-price-list"
   // };
-
-  console.log("process.env 111 ", process.env);
 
   return (
     <div className="landing-page home-page">
