@@ -1,64 +1,45 @@
 export default function sitemap() {
+  const baseUrl = "https://sclinic-cuaxay1999.vercel.app/";
   return [
     {
-      url: "https://sclinic.biz/",
+      url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
     },
     {
-      url: "https://sclinic.biz/news",
+      url: `${baseUrl}/news`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/pricing-page",
+      url: `${baseUrl}/pricing-page`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/contact-page",
+      url: `${baseUrl}/contact-page`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/view-news-detail",
+      url: `${baseUrl}/view-news-detail`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/guides",
+      url: `${baseUrl}/guides`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/chain",
+      url: `${baseUrl}/chain`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/profile",
+      url: `${baseUrl}/profile`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/shop",
+      url: `${baseUrl}/shop`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
     {
-      url: "https://sclinic.biz/account",
+      url: `${baseUrl}/account`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
     },
   ];
 }
