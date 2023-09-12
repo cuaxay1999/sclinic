@@ -26,6 +26,10 @@ export default function BaseLayout({ children }) {
   if (typeof window !== "undefined") {
     window.navigatePage = (name, params = {}, query = {}) =>
       navigatePages(push, name, params, query);
+
+    window.navToNewsDetail = (newsTitle, newsId, locale) => {
+      navToNewsDetail(newsTitle, newsId, locale, push);
+    };
     window.isMobile = isMobile;
   }
 
