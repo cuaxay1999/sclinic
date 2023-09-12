@@ -30,6 +30,7 @@ const SelectLanguage = () => {
                 <img
                   src={i.imageUrl}
                   style={{ height: "16px", alignSelf: "center" }}
+                  alt="icon"
                 />
 
                 <div className="txt-bold" style={{ marginLeft: "10px" }}>

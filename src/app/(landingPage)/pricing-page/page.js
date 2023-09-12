@@ -479,11 +479,11 @@ const PricingPage = () => {
             </div>
           </Col>
 
-          <Col md={24} xs={24} className="flexbox-center">
+          {/* <Col md={24} xs={24} className="flexbox-center">
             <div className="mt-24 w-full flexbox-center">
               <ButtonRegister />
             </div>
-          </Col>
+          </Col> */}
 
           {/*                    <Col md={6}>
                         <div className='item-page w-full' style={{marginTop: 44}}>
