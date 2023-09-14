@@ -28,14 +28,12 @@ const Section2 = ({ texts }) => {
               </p>
 
               <Row className="row-nowrap">
-                <Col>
-                  <Image
-                    src={CircleCheck}
-                    className="circle-check"
-                    alt="circle check"
-                    style={{ objectFit: "contain" }}
-                  />
-                </Col>
+                <Image
+                  src={CircleCheck}
+                  className="circle-check"
+                  alt="circle check"
+                  style={{ objectFit: "contain" }}
+                />
 
                 <Col>
                   <p className="paragraph">
@@ -45,14 +43,12 @@ const Section2 = ({ texts }) => {
               </Row>
 
               <Row className="row-nowrap">
-                <Col>
-                  <Image
-                    src={CircleCheck}
-                    className="circle-check"
-                    alt="circle check"
-                    style={{ objectFit: "contain" }}
-                  />
-                </Col>
+                <Image
+                  src={CircleCheck}
+                  className="circle-check"
+                  alt="circle check"
+                  style={{ objectFit: "contain" }}
+                />
 
                 <Col>
                   <p className="paragraph">{texts?.APPLYING_AI_TECHNOLOGY}</p>
@@ -60,21 +56,21 @@ const Section2 = ({ texts }) => {
               </Row>
 
               <Row className="row-nowrap">
-                <Col>
-                  <Image
-                    src={CircleCheck}
-                    className="circle-check"
-                    alt="circle check"
-                    style={{ objectFit: "contain" }}
-                  />
-                </Col>
+                <Image
+                  src={CircleCheck}
+                  className="circle-check"
+                  alt="circle check"
+                  style={{ objectFit: "contain" }}
+                />
 
                 <Col>
                   <p className="paragraph">{texts?.CAPTURE_CUSTOMER_NEEDS}</p>
                 </Col>
               </Row>
 
-              <BtnRegisterSSR texts={texts} />
+              <Row>
+                <BtnRegisterSSR texts={texts} />
+              </Row>
             </div>
           </Col>
         </Row>

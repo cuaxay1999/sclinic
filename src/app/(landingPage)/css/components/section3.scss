@@ -1,4 +1,8 @@
 .section-3 {
+  .justify-content--right {
+    display: flex;
+    justify-content: right;
+  }
   .ant-col {
     &__content {
       width: 490px;
@@ -8,6 +12,7 @@
 
     .row-nowrap {
       padding-left: 30px;
+      flex-flow: nowrap;
     }
 
     .section-heading {
@@ -16,6 +21,10 @@
 
     .btn-register-section {
       margin-top: 2rem;
+      background: var(--app-secondary-color);
+      border-color: var(--app-secondary-color);
+      height: fit-content;
+      border-radius: 8px;
 
       &:active,
       &:hover {

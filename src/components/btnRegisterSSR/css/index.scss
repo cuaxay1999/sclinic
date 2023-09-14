@@ -1,10 +1,11 @@
 .btn-register-section {
   display: block;
   margin: 0 auto;
-  background: var(--app-secondary-color);
+  background-color: var(--app-secondary-color);
   border-color: var(--app-secondary-color);
   height: fit-content;
   border-radius: 8px;
+  margin: 0 auto;
 
   &:active,
   &:hover {

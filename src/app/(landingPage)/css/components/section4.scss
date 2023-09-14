@@ -1,6 +1,9 @@
 .section-4 {
   background-size: cover;
-
+  .justify-content--right {
+    display: flex;
+    justify-content: right;
+  }
   .ant-col {
     &__content {
       width: 520px;
@@ -13,12 +16,15 @@
       &__title {
         display: flex;
         align-items: center;
+        margin-left: 24px;
       }
 
       .btn-register-section {
         margin-top: 0px;
         top: 20px;
         position: relative;
+        background: var(--app-secondary-color);
+        border-color: var(--app-secondary-color);
 
         &:active,
         &:hover {

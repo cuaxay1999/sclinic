@@ -26,8 +26,17 @@
     margin-bottom: 1rem;
   }
 
+  .row-nowrap {
+    flex-flow: nowrap;
+  }
+
   .btn-register-section {
+    margin: 0 auto;
     margin-top: 2rem;
+    background: var(--app-secondary-color);
+    border-color: var(--app-secondary-color);
+    height: fit-content;
+    border-radius: 8px;
 
     &:active,
     &:hover {

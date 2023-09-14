@@ -16,14 +16,12 @@ const Section3 = ({ texts }) => {
               </h2>
 
               <Row className="row-nowrap">
-                <Col>
-                  <Image
-                    src={CircleCheck}
-                    alt="CircleCheck"
-                    style={{ objectFit: "contain" }}
-                    className="circle-check"
-                  />
-                </Col>
+                <Image
+                  src={CircleCheck}
+                  alt="CircleCheck"
+                  style={{ objectFit: "contain" }}
+                  className="circle-check"
+                />
 
                 <Col>
                   <p className="paragraph">{texts?.SMART_REPORT_STATISTICS}</p>
@@ -31,14 +29,12 @@ const Section3 = ({ texts }) => {
               </Row>
 
               <Row className="row-nowrap">
-                <Col>
-                  <Image
-                    src={CircleCheck}
-                    alt="CircleCheck"
-                    style={{ objectFit: "contain" }}
-                    className="circle-check"
-                  />
-                </Col>
+                <Image
+                  src={CircleCheck}
+                  alt="CircleCheck"
+                  style={{ objectFit: "contain" }}
+                  className="circle-check"
+                />
 
                 <Col>
                   <p className="paragraph">
@@ -48,14 +44,12 @@ const Section3 = ({ texts }) => {
               </Row>
 
               <Row className="row-nowrap">
-                <Col>
-                  <Image
-                    src={CircleCheck}
-                    alt="CircleCheck"
-                    style={{ objectFit: "contain" }}
-                    className="circle-check"
-                  />
-                </Col>
+                <Image
+                  src={CircleCheck}
+                  alt="CircleCheck"
+                  style={{ objectFit: "contain" }}
+                  className="circle-check"
+                />
 
                 <Col>
                   <p className="paragraph">
@@ -64,7 +58,9 @@ const Section3 = ({ texts }) => {
                 </Col>
               </Row>
 
-              <BtnRegisterSSR texts={texts} />
+              <Row>
+                <BtnRegisterSSR texts={texts} />
+              </Row>
             </div>
           </Col>
 

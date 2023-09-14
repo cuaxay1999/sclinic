@@ -60,8 +60,9 @@ const Section4 = ({ texts }) => {
                   </p>
                 </Col>
               </Row>
-
-              <BtnRegisterSSR texts={texts} />
+              <Row>
+                <BtnRegisterSSR texts={texts} />
+              </Row>
             </div>
           </Col>
 

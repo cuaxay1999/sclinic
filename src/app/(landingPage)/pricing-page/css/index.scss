@@ -70,6 +70,20 @@
   align-items: center !important;
 }
 
+.btn-register-section {
+  margin-top: 2rem;
+  background-color: var(--app-secondary-color);
+  border-color: var(--app-secondary-color);
+  height: fit-content;
+  border-radius: 8px;
+
+  &:active,
+  &:hover {
+    background: var(--app-secondary-color) !important;
+    border-color: transparent !important;
+  }
+}
+
 .w-full {
   width: 100%;
 }

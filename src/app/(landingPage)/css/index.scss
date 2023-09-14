@@ -12,6 +12,10 @@
   }
 }
 
+.row-nowrap {
+  flex-flow: nowrap;
+}
+
 @media (max-width: 1023px) {
   .home-page {
     img {
@@ -23,6 +27,11 @@
 
     .btn-register-section {
       margin-top: 0.5rem;
+      background: var(--app-secondary-color);
+      border-color: var(--app-secondary-color);
+      height: fit-content;
+      border-radius: 8px;
+      margin: 0 auto;
 
       &:active,
       &:hover {

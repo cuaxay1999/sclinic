@@ -13,9 +13,7 @@ const PricingPage = () => {
         >
           <Col md={24}>
             <div className="w-full flexbox-center">
-              <h1 className="package-title-page">
-                BẢNG GIÁ & TÍNH NĂNG SCLINIC
-              </h1>
+              <h1 className="package-title-page">BẢNG GIÁ & TÍNH NĂNG</h1>
             </div>
           </Col>
           <Col md={24} className="mt-24"></Col>
@@ -481,7 +479,10 @@ const PricingPage = () => {
 
           <Col md={24} xs={24} className="flexbox-center">
             <div className="mt-24 w-full flexbox-center">
-              <BtnRegisterSSR txtBtn={`Đăng ký dùng thử`} />
+              <BtnRegisterSSR
+                className="btn-register-section"
+                txtBtn={`Đăng ký dùng thử`}
+              />
             </div>
           </Col>
         </Row>

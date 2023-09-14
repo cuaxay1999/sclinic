@@ -31,14 +31,12 @@ const Section1 = ({ texts }) => {
                 </h3>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -48,14 +46,12 @@ const Section1 = ({ texts }) => {
                 </Row>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -65,14 +61,12 @@ const Section1 = ({ texts }) => {
                 </Row>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -100,14 +94,12 @@ const Section1 = ({ texts }) => {
                 </h3>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -127,14 +119,12 @@ const Section1 = ({ texts }) => {
                 </Row>*/}
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -144,14 +134,12 @@ const Section1 = ({ texts }) => {
                 </Row>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -179,14 +167,12 @@ const Section1 = ({ texts }) => {
                 </h3>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
@@ -196,14 +182,12 @@ const Section1 = ({ texts }) => {
                 </Row>
 
                 <Row className="row-nowrap">
-                  <Col>
-                    <Image
-                      src={CheckIcon}
-                      alt="CheckIcon"
-                      style={{ objectFit: "contain" }}
-                      className="check-icon"
-                    />
-                  </Col>
+                  <Image
+                    src={CheckIcon}
+                    alt="CheckIcon"
+                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    className="check-icon"
+                  />
 
                   <Col>
                     <p className="paragraph">
