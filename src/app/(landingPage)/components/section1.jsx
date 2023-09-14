@@ -7,12 +7,12 @@ const Section1 = ({ texts }) => {
   return (
     <div className="section section-1">
       <div className="section-content">
-        <h1
+        <h2
           className="section-heading"
           style={{ color: "#484848", fontWeight: 700 }}
         >
           {texts?.SHOP_HELP_YOU_MANAGE_YOUR_SALES_EASILY_EFFECTIVELY?.toUpperCase()}
-        </h1>
+        </h2>
 
         <Row gutter={[20, 0]} className="row-nowrap content-overflow-x">
           <Col xs={24} md={12} lg={8}>

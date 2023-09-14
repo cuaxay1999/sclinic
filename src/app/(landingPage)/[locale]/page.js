@@ -3,15 +3,9 @@ import Section2 from "../components/section2";
 import Section3 from "../components/section3";
 import Section4 from "../components/section4";
 import AppBanner from "@/components/appBanner";
-// import { cookies } from "next/headers";
-// import { SSPA_LOCALE } from "@/utils/constants/config";
 
 import "../css/index.scss";
 import { getLocaleConfigByCountryCode } from "@/app/(auth)/languageSetting/actions";
-
-// export function generateStaticParams() {
-//   return [{ locale: "vi" }, { locale: "ja" }, { locale: "en" }];
-// }
 
 const HomePage = async ({ params }) => {
   const { locale } = params;
@@ -31,8 +25,6 @@ const HomePage = async ({ params }) => {
   };
 
   await getLanguageText();
-
-  // cookies().set({ [SSPA_LOCALE]: locale });
 
   return (
     <div className="landing-page home-page">
