@@ -2,7 +2,12 @@
 
 import { Layout } from "antd";
 import React, { useEffect, useState } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import {
+  useSearchParams,
+  useRouter,
+  usePathname,
+  useParams,
+} from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import Cookies from "js-cookie";
 import { SSHOP_SPA_TOKEN } from "@/utils/constants/config";
@@ -10,6 +15,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-phone-number-input/style.css";
 import "antd/es/style/reset.css";
+import { actionChangeLanguage } from "@/app/(auth)/system/actions";
 
 import {
   getLocaleConfigByCountryCode,
@@ -26,15 +32,18 @@ export default function BaseLayout({ children }) {
   if (typeof window !== "undefined") {
     window.navigatePage = (name, params = {}, query = {}) =>
       navigatePages(push, name, params, query);
-
-    window.navToNewsDetail = (newsTitle, newsId, locale) => {
-      navToNewsDetail(newsTitle, newsId, locale, push);
-    };
     window.isMobile = isMobile;
   }
 
   const dispatch = useDispatch();
+  const pathName = usePathname();
+  const params = useParams();
+
+  ["/ja", "/en", "/vi"].includes(pathName) &&
+    dispatch(actionChangeLanguage(params.locale));
+
   const locale = useSelector((state) => state.system.locale);
+
   const userInfo = useSelector((state) => state.profile.userInfo);
 
   const urlParams = useSearchParams();

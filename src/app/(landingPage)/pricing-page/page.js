@@ -1,7 +1,7 @@
 import "./css/index.scss";
 import { Col, Divider, Row } from "antd";
 import { CheckOutlined } from "@mui/icons-material";
-import ButtonRegister from "./components/buttonRegister";
+import BtnRegisterSSR from "@/components/btnRegisterSSR";
 
 const PricingPage = () => {
   return (
@@ -479,62 +479,11 @@ const PricingPage = () => {
             </div>
           </Col>
 
-          {/* <Col md={24} xs={24} className="flexbox-center">
+          <Col md={24} xs={24} className="flexbox-center">
             <div className="mt-24 w-full flexbox-center">
-              <ButtonRegister />
+              <BtnRegisterSSR txtBtn={`Đăng ký dùng thử`} />
             </div>
-          </Col> */}
-
-          {/*                    <Col md={6}>
-                        <div className='item-page w-full' style={{marginTop: 44}}>
-                            <Row className='sub-item-page item-package-04'>
-                                <Col md={24}><h1 className='mt-12 flexbox-center package-name'
-                                                 style={{color: "chocolate"}}>Gói nâng cao</h1></Col>
-                                <Col md={24}><h1 className='flexbox-center package-pricing'>999.000 đ <span
-                                    className='package-time ml-12'> / tháng </span></h1></Col>
-                                <Col md={24}><h1 className='flexbox-center package-des'
-                                                 style={{color: "chocolate"}}>Không gới hạn nhân viên</h1></Col>
-                            </Row>
-
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={24}>Tính năng gói <span style={{fontWeight: 600}}>tiêu chuẩn</span></Col>
-                            </Row>
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Tích hợp chăm sóc khách hàng nhắn tin OA, ZNS</Col>
-                            </Row>
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Theo dõi fanpage, comment, nhắn tin</Col>
-                            </Row>
-
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Chiến dịch remarketing khách hàng cũ</Col>
-                            </Row>
-
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Công cụ affilate mở rộng khách hàng</Col>
-                            </Row>
-
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Tổng đài call tập trung</Col>
-                            </Row>
-
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Nhắc lịch khách hàng</Col>
-                            </Row>
-
-                            <Row className='ml-4 mt-12' gutter={[12, 0]}>
-                                <Col md={2}><div className='icon-checked'><CheckOutlined className='box-icon-checked'/></div></Col>
-                                <Col md={22}>Không giới hạn dung lượng dữ liệu</Col>
-                            </Row>
-
-                        </div>
-                    </Col>*/}
+          </Col>
         </Row>
       </div>
 
@@ -611,12 +560,6 @@ const PricingPage = () => {
           </div>
         </Col>
       </div>
-
-      {/*        <Row className='mt-24' style={{backgroundColor:"white"}}>
-                <div className='w-full flexbox-center'>
-                    <div className='package-title-page'>BỘ CÂU HỎI THƯỜNG GẶP</div>
-                </div>
-            </Row>*/}
     </div>
   );
 };

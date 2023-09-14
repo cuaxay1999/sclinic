@@ -1,15 +1,10 @@
-"use client";
-
 import { Row, Col, Button } from "antd";
 import { ImgSection3 } from "../../../assets/images";
-import CircleCheck from "@/assets/icons/files-icon/circle-check.svg";
-import BtnRegister from "@/components/btnRegister";
-import { useSelector } from "react-redux";
+import { CircleCheck } from "@/assets/images";
+import BtnRegisterSSR from "@/components/btnRegisterSSR";
 import Image from "next/image";
 
-const Section3 = () => {
-  const texts = useSelector((state) => state.system.texts);
-
+const Section3 = ({ texts }) => {
   return (
     <div className="section section-3">
       <div className="section-content">
@@ -22,7 +17,12 @@ const Section3 = () => {
 
               <Row className="row-nowrap">
                 <Col>
-                  <CircleCheck className="circle-check" />
+                  <Image
+                    src={CircleCheck}
+                    alt="CircleCheck"
+                    style={{ objectFit: "contain" }}
+                    className="circle-check"
+                  />
                 </Col>
 
                 <Col>
@@ -32,7 +32,12 @@ const Section3 = () => {
 
               <Row className="row-nowrap">
                 <Col>
-                  <CircleCheck className="circle-check" />
+                  <Image
+                    src={CircleCheck}
+                    alt="CircleCheck"
+                    style={{ objectFit: "contain" }}
+                    className="circle-check"
+                  />
                 </Col>
 
                 <Col>
@@ -44,7 +49,12 @@ const Section3 = () => {
 
               <Row className="row-nowrap">
                 <Col>
-                  <CircleCheck className="circle-check" />
+                  <Image
+                    src={CircleCheck}
+                    alt="CircleCheck"
+                    style={{ objectFit: "contain" }}
+                    className="circle-check"
+                  />
                 </Col>
 
                 <Col>
@@ -54,7 +64,7 @@ const Section3 = () => {
                 </Col>
               </Row>
 
-              <BtnRegister />
+              <BtnRegisterSSR texts={texts} />
             </div>
           </Col>
 

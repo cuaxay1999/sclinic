@@ -1,15 +1,9 @@
-"use client";
-
 import { Row, Col, Button } from "antd";
 import { Shop, Warehouse, Calendar } from "../../../assets/images";
-import { useSelector } from "react-redux";
-import CheckIcon from "@/assets/icons/files-icon/check-icon.svg";
+import { CheckIcon } from "@/assets/images";
 import Image from "next/image";
 
-const Section1 = (props) => {
-  const { handleGoToServicePriceList } = props;
-  const texts = useSelector((state) => state.system.texts);
-
+const Section1 = ({ texts }) => {
   return (
     <div className="section section-1">
       <div className="section-content">
@@ -38,7 +32,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -50,7 +49,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -62,7 +66,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -92,7 +101,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -104,7 +118,7 @@ const Section1 = (props) => {
                 {/*
                 <Row className='row-nowrap'>
                   <Col>
-                    <CheckIcon className='check-icon' />
+                    <Image src={ CheckIcon } alt="CheckIcon" style={{objectFit: "contain"}} className='check-icon' />
                   </Col>
 
                   <Col>
@@ -114,7 +128,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -126,7 +145,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -156,7 +180,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>
@@ -168,7 +197,12 @@ const Section1 = (props) => {
 
                 <Row className="row-nowrap">
                   <Col>
-                    <CheckIcon className="check-icon" />
+                    <Image
+                      src={CheckIcon}
+                      alt="CheckIcon"
+                      style={{ objectFit: "contain" }}
+                      className="check-icon"
+                    />
                   </Col>
 
                   <Col>

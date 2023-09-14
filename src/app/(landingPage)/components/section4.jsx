@@ -1,15 +1,10 @@
-"use client";
-
 import { Row, Col, Button } from "antd";
 import { ImgSection4 } from "../../../assets/images";
-import CircleCheck from "@/assets/icons/files-icon/circle-check.svg";
-import BtnRegister from "@/components/btnRegister";
-import { useSelector } from "react-redux";
+import { CircleCheck } from "@/assets/images";
+import BtnRegisterSSR from "@/components/btnRegisterSSR";
 import Image from "next/image";
 
-const Section4 = () => {
-  const texts = useSelector((state) => state.system.texts);
-
+const Section4 = ({ texts }) => {
   return (
     <div className="section section-4">
       <div className="section-content">
@@ -19,7 +14,12 @@ const Section4 = () => {
               <Row>
                 <Col span={24}>
                   <h3 className="ant-col__content__title">
-                    <CircleCheck className="circle-check" />
+                    <Image
+                      src={CircleCheck}
+                      alt="CricleCheck"
+                      style={{ objectFit: "contain" }}
+                      className="circle-check"
+                    />
                     {texts?.SELL_RIGHT_ON_THE_PHONE}
                   </h3>
 
@@ -30,7 +30,12 @@ const Section4 = () => {
 
                 <Col span={24}>
                   <h3 className="ant-col__content__title">
-                    <CircleCheck className="circle-check" />
+                    <Image
+                      src={CircleCheck}
+                      alt="CricleCheck"
+                      style={{ objectFit: "contain" }}
+                      className="circle-check"
+                    />
                     {texts?.VIEW_REPORTS_ANYTIME_ANYWHERE}
                   </h3>
 
@@ -41,7 +46,12 @@ const Section4 = () => {
 
                 <Col span={24}>
                   <h3 className="ant-col__content__title">
-                    <CircleCheck className="circle-check" />
+                    <Image
+                      src={CircleCheck}
+                      alt="CricleCheck"
+                      style={{ objectFit: "contain" }}
+                      className="circle-check"
+                    />
                     {texts?.COMPATIBLE_WITH_ALL_MOBILE_DEVICES}
                   </h3>
 
@@ -51,7 +61,7 @@ const Section4 = () => {
                 </Col>
               </Row>
 
-              <BtnRegister />
+              <BtnRegisterSSR texts={texts} />
             </div>
           </Col>
 

@@ -1,15 +1,10 @@
-"use client";
-
 import { Row, Col, Button } from "antd";
 import { ImgSection2 } from "../../../assets/images";
-import CircleCheck from "@/assets/icons/files-icon/circle-check.svg";
-import BtnRegister from "@/components/btnRegister";
-import { useSelector } from "react-redux";
+import { CircleCheck } from "@/assets/images";
+import BtnRegisterSSR from "@/components/btnRegisterSSR";
 import Image from "next/image";
 
-const Section2 = (props) => {
-  const texts = useSelector((state) => state.system.texts);
-
+const Section2 = ({ texts }) => {
   return (
     <div className="section section-2">
       <div className="section-content">
@@ -34,7 +29,12 @@ const Section2 = (props) => {
 
               <Row className="row-nowrap">
                 <Col>
-                  <CircleCheck className="circle-check" />
+                  <Image
+                    src={CircleCheck}
+                    className="circle-check"
+                    alt="circle check"
+                    style={{ objectFit: "contain" }}
+                  />
                 </Col>
 
                 <Col>
@@ -46,7 +46,12 @@ const Section2 = (props) => {
 
               <Row className="row-nowrap">
                 <Col>
-                  <CircleCheck className="circle-check" />
+                  <Image
+                    src={CircleCheck}
+                    className="circle-check"
+                    alt="circle check"
+                    style={{ objectFit: "contain" }}
+                  />
                 </Col>
 
                 <Col>
@@ -56,7 +61,12 @@ const Section2 = (props) => {
 
               <Row className="row-nowrap">
                 <Col>
-                  <CircleCheck className="circle-check" />
+                  <Image
+                    src={CircleCheck}
+                    className="circle-check"
+                    alt="circle check"
+                    style={{ objectFit: "contain" }}
+                  />
                 </Col>
 
                 <Col>
@@ -64,7 +74,7 @@ const Section2 = (props) => {
                 </Col>
               </Row>
 
-              <BtnRegister />
+              <BtnRegisterSSR texts={texts} />
             </div>
           </Col>
         </Row>

@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "antd";
 import "./css/index.scss";
 import { useSelector } from "react-redux";

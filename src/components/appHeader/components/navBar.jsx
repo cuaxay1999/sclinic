@@ -25,21 +25,23 @@ const NavBar = (props) => {
     icon: typeof window !== "undefined" && window.isMobile ? it?.icon : null,
   }));
 
+  const locale = useSelector((state) => state.system.locale);
+
+  const generateLink = (path, routeName) => {
+    return routeName === "HOME_PAGE" ? `/${locale}` : path;
+  };
+
   const itemButton = ROUTERS.LANDING_PAGE.filter((it) => it.onMenu).map(
     (it) => ({
-      laybel: (
-        <Link key={it?.name} href={it?.path}>
-          {it?.label}
+      label: (
+        <Link href={`${generateLink(it.path, it.name)}`}>
+          {texts[it?.label]}
         </Link>
       ),
+      key: it?.name,
+      icon: typeof window !== "undefined" && window.isMobile ? it?.icon : null,
     })
   );
-
-  // const menuOnClick = (item) => {
-  //   if (item.key !== "SELECT_LANGUAGE" && item.key !== "BUTTON_PHONE") {
-  //     window.navigatePage(item?.key);
-  //   }
-  // };
 
   const callSupport = () => {
     if (typeof window !== "undefined") {
@@ -67,27 +69,7 @@ const NavBar = (props) => {
               : "horizontal"
           }
           items={[
-            // ...itemMenu,
-            {
-              label: <Link href="/">Trang chủ</Link>,
-              key: "HOME_PAGE",
-            },
-            {
-              label: <Link href="/news">Tin tức</Link>,
-              key: "NEWS_PAGE",
-            },
-            {
-              label: <Link href="/pricing-page">Bảng giá</Link>,
-              key: "PRICING_PAGE",
-            },
-            {
-              label: <Link href="/contact-page">Liên hệ</Link>,
-              key: "CONTACT_PAGE",
-            },
-            {
-              label: <Link href="/guides">Hướng dẫn</Link>,
-              key: "GUIDES",
-            },
+            ...itemButton,
             {
               label: <SelectLanguage />,
               key: "SELECT_LANGUAGE",
@@ -106,7 +88,6 @@ const NavBar = (props) => {
               key: "BUTTON_PHONE",
             },
           ]}
-          // onClick={menuOnClick}
         />
       </div>
     </div>

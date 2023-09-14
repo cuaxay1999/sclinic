@@ -6,12 +6,21 @@ import { Select } from "antd";
 import { getListCountry } from "../../app/(auth)/languageSetting/actions";
 import { actionChangeLanguage } from "../../app/(auth)/system/actions";
 import { CaretDownOutlined } from "@ant-design/icons";
+import { useRouter, usePathname } from "next/navigation";
 
 const SelectLanguage = () => {
   const dispatch = useDispatch();
   const texts = useSelector((state) => state.system.texts);
   const locale = useSelector((state) => state.system.locale);
   const [dataSelect, setDataSelect] = useState([]);
+
+  const router = useRouter();
+  const pathName = usePathname();
+
+  const changeLocate = (locale) => {
+    ["/ja", "/en", "/vi"].includes(pathName) && router.push(locale);
+    dispatch(actionChangeLanguage(locale));
+  };
 
   useEffect(() => {
     getLanguageConfig();
@@ -53,7 +62,7 @@ const SelectLanguage = () => {
       suffixIcon={<CaretDownOutlined />}
       value={locale}
       placeholder={texts.APP_SETTING_SELECT_LANGUAGE}
-      onChange={(e) => dispatch(actionChangeLanguage(e))}
+      onChange={(e) => changeLocate(e)}
       options={dataSelect}
       style={{ minWidth: 150 }}
     />
