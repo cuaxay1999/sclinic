@@ -1,7 +1,9 @@
-import { NextResponse } from "next/server";
+import { SSPA_LOCALE } from "@/utils/constants/config";
+import { NextResponse, NextRequest } from "next/server";
 
 export function middleware(request) {
-  return NextResponse.redirect(new URL("/vi", request.url));
+  let locale = request.cookies.get("sspa-locale")?.value || "en";
+  return NextResponse.redirect(new URL(`/${locale}`, request.url));
 }
 
 export const config = {
