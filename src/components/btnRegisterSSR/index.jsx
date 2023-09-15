@@ -10,7 +10,9 @@ const BtnRegisterSSR = ({ txtBtn, texts }) => {
       type="primary"
       style={{ background: "#fd4e5d" }}
     >
-      <Link href="/account">{txtBtn ? txtBtn : texts?.REGISTER_NOW}</Link>
+      <Link className="linkSSR" href="/account">
+        {txtBtn ? txtBtn : texts?.REGISTER_NOW}
+      </Link>
     </Button>
   );
 };

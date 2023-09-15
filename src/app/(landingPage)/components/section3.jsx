@@ -19,7 +19,11 @@ const Section3 = ({ texts }) => {
                 <Image
                   src={CircleCheck}
                   alt="CircleCheck"
-                  style={{ objectFit: "contain" }}
+                  style={{
+                    objectFit: "contain",
+                    height: "24px",
+                    margin: "0px 8px 0px 0px",
+                  }}
                   className="circle-check"
                 />
 
@@ -32,7 +36,11 @@ const Section3 = ({ texts }) => {
                 <Image
                   src={CircleCheck}
                   alt="CircleCheck"
-                  style={{ objectFit: "contain" }}
+                  style={{
+                    objectFit: "contain",
+                    height: "24px",
+                    margin: "0px 8px 0px 0px",
+                  }}
                   className="circle-check"
                 />
 
@@ -47,7 +55,11 @@ const Section3 = ({ texts }) => {
                 <Image
                   src={CircleCheck}
                   alt="CircleCheck"
-                  style={{ objectFit: "contain" }}
+                  style={{
+                    objectFit: "contain",
+                    height: "24px",
+                    margin: "0px 8px 0px 0px",
+                  }}
                   className="circle-check"
                 />
 

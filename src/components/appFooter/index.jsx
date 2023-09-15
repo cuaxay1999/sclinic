@@ -5,10 +5,12 @@ import { useSelector } from "react-redux";
 import { Row, Col, Button, Form } from "antd";
 
 import Image from "next/image";
-import PhoneIconSolid from "../../assets/icons/files-icon/phone-icon-solid.svg";
-import EmailIconSolid from "../../assets/icons/files-icon/emai-icon-solid.svg";
-import LocationIcon from "../../assets/icons/files-icon/location.svg";
-import UserIconSolid from "../../assets/icons/files-icon/user-icon.svg";
+import {
+  EmailIconSolid,
+  LocationIcon,
+  UserIconSolid,
+  PhoneIconSolid,
+} from "@/assets/icons";
 
 import "./css/index.scss";
 import { auth } from "@/utils/constants/firebase";
@@ -58,7 +60,11 @@ const AppFooter = () => {
 
             <Row gutter={[8, 0]} className="row-nowrap">
               <Col>
-                <LocationIcon className="icon-footer" />
+                <Image
+                  src={LocationIcon}
+                  className="icon-footer"
+                  alt="LocationIcon"
+                />
               </Col>
 
               <Col>
@@ -68,7 +74,11 @@ const AppFooter = () => {
 
             <Row gutter={[8, 0]} className="row-nowrap">
               <Col>
-                <PhoneIconSolid className="icon-footer" />
+                <Image
+                  src={PhoneIconSolid}
+                  className="icon-footer"
+                  alt="PhoneIconSolid"
+                />
               </Col>
 
               <Col>
@@ -83,7 +93,11 @@ const AppFooter = () => {
 
             <Row gutter={[8, 0]} className="row-nowrap">
               <Col>
-                <EmailIconSolid className="icon-footer" />
+                <Image
+                  src={EmailIconSolid}
+                  className="icon-footer"
+                  alt="EmailIconSolid"
+                />
               </Col>
 
               <Col>

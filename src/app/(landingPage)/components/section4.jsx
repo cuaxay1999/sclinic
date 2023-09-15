@@ -17,7 +17,10 @@ const Section4 = ({ texts }) => {
                     <Image
                       src={CircleCheck}
                       alt="CricleCheck"
-                      style={{ objectFit: "contain" }}
+                      style={{
+                        objectFit: "contain",
+                        margin: "0px 8px 0px 0px",
+                      }}
                       className="circle-check"
                     />
                     {texts?.SELL_RIGHT_ON_THE_PHONE}
@@ -33,7 +36,10 @@ const Section4 = ({ texts }) => {
                     <Image
                       src={CircleCheck}
                       alt="CricleCheck"
-                      style={{ objectFit: "contain" }}
+                      style={{
+                        objectFit: "contain",
+                        margin: "0px 8px 0px 0px",
+                      }}
                       className="circle-check"
                     />
                     {texts?.VIEW_REPORTS_ANYTIME_ANYWHERE}
@@ -49,7 +55,10 @@ const Section4 = ({ texts }) => {
                     <Image
                       src={CircleCheck}
                       alt="CricleCheck"
-                      style={{ objectFit: "contain" }}
+                      style={{
+                        objectFit: "contain",
+                        margin: "0px 8px 0px 0px",
+                      }}
                       className="circle-check"
                     />
                     {texts?.COMPATIBLE_WITH_ALL_MOBILE_DEVICES}

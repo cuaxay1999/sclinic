@@ -1,8 +1,7 @@
 import { Button } from "antd";
 import { LogoSSHOP } from "../../../assets/images/index";
 import Image from "next/image";
-import PhoneIcon from "../../../assets/icons/files-icon/phone-icon.png";
-import EmailIcon from "../../../assets/icons/files-icon/email-icon.svg";
+import { EmailIcon, PhoneIcon } from "@/assets/icons";
 import { MenuOutlined } from "@ant-design/icons";
 
 const TopBar = (props) => {
@@ -28,7 +27,9 @@ const TopBar = (props) => {
             className="txt-bold"
             type="text"
             size="small"
-            icon={<EmailIcon className="top-bar-icon" />}
+            icon={
+              <Image src={EmailIcon} className="top-bar-icon" alt="EmailIcon" />
+            }
           >
             {mail}
           </Button>

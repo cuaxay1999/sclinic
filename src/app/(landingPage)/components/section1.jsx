@@ -34,7 +34,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -49,7 +53,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -64,7 +72,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -97,7 +109,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -122,7 +138,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -137,7 +157,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -170,7 +194,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 
@@ -185,7 +213,11 @@ const Section1 = ({ texts }) => {
                   <Image
                     src={CheckIcon}
                     alt="CheckIcon"
-                    style={{ objectFit: "contain", marginTop: "5px" }}
+                    style={{
+                      objectFit: "contain",
+                      margin: "5px 8px 0px 0px",
+                      height: "10px",
+                    }}
                     className="check-icon"
                   />
 

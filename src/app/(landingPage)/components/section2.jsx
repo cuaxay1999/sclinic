@@ -32,7 +32,11 @@ const Section2 = ({ texts }) => {
                   src={CircleCheck}
                   className="circle-check"
                   alt="circle check"
-                  style={{ objectFit: "contain" }}
+                  style={{
+                    objectFit: "contain",
+                    height: "24px",
+                    margin: "0px 8px 0px 0px",
+                  }}
                 />
 
                 <Col>
@@ -47,7 +51,11 @@ const Section2 = ({ texts }) => {
                   src={CircleCheck}
                   className="circle-check"
                   alt="circle check"
-                  style={{ objectFit: "contain" }}
+                  style={{
+                    objectFit: "contain",
+                    height: "24px",
+                    margin: "0px 8px 0px 0px",
+                  }}
                 />
 
                 <Col>
@@ -60,7 +68,11 @@ const Section2 = ({ texts }) => {
                   src={CircleCheck}
                   className="circle-check"
                   alt="circle check"
-                  style={{ objectFit: "contain" }}
+                  style={{
+                    objectFit: "contain",
+                    height: "24px",
+                    margin: "0px 8px 0px 0px",
+                  }}
                 />
 
                 <Col>

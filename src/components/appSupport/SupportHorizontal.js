@@ -1,7 +1,9 @@
-// import { MessengerIcon, ZaloIcon, FacebookIcon } from "../../assets/icons";
-import MessengerIcon from "../../assets/icons/files-icon/messenger-icon.png";
-import ZaloIcon from "../../assets/icons/files-icon/zalo-icon.png";
-import FacebookIcon from "../../assets/icons/files-icon/facebook-icon.png";
+import {
+  MessengerIcon,
+  ZaloIcon,
+  FacebookIcon,
+  PhoneIconPng,
+} from "@/assets/icons";
 import Image from "next/image";
 import "./css/index.scss";
 
