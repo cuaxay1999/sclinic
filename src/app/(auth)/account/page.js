@@ -19,15 +19,15 @@ import "./css/index.scss";
 import Image from "next/image";
 
 const SystemAccount = () => {
-  const search = useSearchParams();
-  const urlParams = new URLSearchParams(search);
-  const actionState = urlParams.get("act");
   const texts = useSelector((state) => state.system.texts);
-  const mobileNumber = urlParams.get("mobile");
-  const refId = urlParams.get("refId");
-  const resetPwd = urlParams.get("resetPwd");
-  const authFirebase = urlParams.get("authFirebase") == "true" ? true : false;
-  const idToken = urlParams.get("idToken");
+  const searchParams = useSearchParams();
+  const actionState = searchParams.get("act");
+  const mobileNumber = searchParams.get("mobile");
+  const refId = searchParams.get("refId");
+  const resetPwd = searchParams.get("resetPwd");
+  const authFirebase =
+    searchParams.get("authFirebase") == "true" ? true : false;
+  const idToken = searchParams.get("idToken");
 
   const forgotPwd = (
     authFirebase,
