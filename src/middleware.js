@@ -1,11 +1,21 @@
-import { SSPA_LOCALE } from "@/utils/constants/config";
+import createMiddleware from "next-intl/middleware";
 import { NextResponse, NextRequest } from "next/server";
+import { SSPA_LOCALE } from "./utils/constants/config";
 
-export function middleware(request) {
-  let locale = request.cookies.get("sspa-locale")?.value || "vi";
-  return NextResponse.redirect(new URL(`/${locale}`, request.url));
-}
+export default createMiddleware({
+  // A list of all locales that are supported
+  locales: ["vi", "en", "ja"],
+  // If this locale is matched, pathnames work without a prefix (e.g. `/about`)
+  // defaultLocale: "vi",
+});
+
+// export function middleware(request) {
+//   let locale = request.cookies.get(SSPA_LOCALE)?.value || "en";
+//   return NextResponse.redirect(new URL(`/${locale}`, request.url));
+// }
 
 export const config = {
-  matcher: "/",
+  // Skip all paths that should not be internationalized. This example skips
+  // certain folders and all pathnames with a dot (e.g. favicon.ico)
+  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
 };

@@ -1,0 +1,72 @@
+{
+  "SelectLanguage": {
+    "APP_SETTING_SELECT_LANGUAGE": "Chọn ngôn ngữ"
+  },
+  "AppFooter": {
+    "OWNERS_AND_DEVELOPMENT_UNIT": "Đơn vị xây dựng nền tảng",
+    "SFIN_SMART_JSC": "CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG MINH SFIN",
+    "SFIN_ADDRESS": "Phòng 01 tầng 07 số 89B Đường Hồ Đền Lừ, Phường Hoàng Văn Thụ, Quận Hoàng Mai, Thành phố Hà Nội, Việt Nam",
+    "LABEL_HOTLINE": "Hotline",
+    "SUPPORT_PHONE": "+84969877888",
+    "LABEL_EMAIL": "Email",
+    "SUPPORT_EMAIL": "letaidai@sfin.vn",
+    "COOPERATION_AND_CUSTOMER_CARE_UNIT": "Đơn vị phát triển khách hàng",
+    "GOL_SOFTWARE_COMPANY_LIMITED": "CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG MINH SFIN",
+    "GOL_PHONE_CONTACT": "Số 89B Đường Hồ Đền Lừ, Phường Hoàng Văn Thụ, Hoàng Mai, Hà Nội",
+    "GOL_HOTLINE": "0969877888",
+    "SSHOP_SUPPORT_EMAIL_GOLSOFT": "letaidai@sfin.vn",
+    "CERTIFICATION": "Chứng nhận",
+    "BUSINESS_LIECENSE": "Giấy phép kinh doanh",
+    "DATED": "cấp ngày",
+    "BY_BRO": "bởi Phòng Đăng ký kinh doanh - Sở Kế Hoạch và Đầu Tư Thành Phố Hà Nội",
+    "LINK_APP_IOS": "https://apps.apple.com/vn/app/sshop-s%E1%BB%95-b%C3%A1n-h%C3%A0ng/id1629584008",
+    "LINK_APP_ANDROID": "https://play.google.com/store/apps/details?id=sfin.sshop.vn"
+  },
+  "AppBaner": {
+    "INTELLIGENT_SALES_MANAGEMENT_PLATFORM": "Nền tảng quản lý phòng khám nha khoa toàn diện",
+    "SIMPLE_CONVENIENT_AND_EASY_TO_USE": "Đơn giản, tiện lợi và dễ sử dụng",
+    "OPTIMIZING_THE_SALES_PROCESS": "Chuẩn hóa theo quy trình phòng khám của bạn",
+    "COMPREHENSIVE_CUSTOMER_CARE_SOLUTION": "Giải pháp chăm sóc khách hàng, loyalty, marketing toàn diện",
+    "LOG_IN": "Đăng nhập",
+    "USE_FREE": "Sử dụng miễn phí",
+    "SIGN_UP_TRIAL": "Đăng ký dùng thử"
+  },
+  "Section1": {
+    "SHOP_HELP_YOU_MANAGE_YOUR_SALES_EASILY_EFFECTIVELY": "SCLINIC quản lý cả phòng khám chỉ trong một phần mềm",
+    "EASY_TO_USE_ON_MULTIPLE_PLATFORMS": "Dễ dàng sử dụng trên đa nền tảng",
+    "SMART_INTERFACE_USED_IN_COMPUTERS_SMART_DEVICES": "Giao diện thông minh dùng trong máy tính, thiết bị thông minh",
+    "EFFICIENT_AND_INTELLIGENT_WAREHOUSE_OPERATION": "Quản lý vận hành kho, vật tư, nha phẩm, labo an toàn, hiệu quả, thông minh",
+    "QUICK_IMPORT_AND_EXPORT_OPERATIONS": "Thao tác, tạo dịch vụ, nhập xuất nha phẩm nhanh chóng",
+    "QUICK_INPUT_AND_SALES_MANAGEMENT_INTERFACE": "Quản lý toàn diện lịch hẹn, dịch vụ, bệnh án, lịch sử thăm khám của khách hàng",
+    "OPERATE_YOUR_CHAIN_AND_STORES_WITH_EASE": "Vận hành chuỗi và cửa hàng một cách dễ dàng",
+    "ACCURATE_TO_EACH_PRODUCT_UNIT": "Theo dõi lịch sử bệnh án của khách hàng. Tự động nhắc lịch khách hàng trước dịch vụ",
+    "SUPPORT_CUSTOMERS_TO_PLACE_ORDERS_REMOTELY": "Tạo đơn thuốc theo bệnh án, nhắc lịch uống thuốc tự động",
+    "OPERATE_THE_STORE_REMOTELY_SMOOTHLY_IN_DETAIL": "Vận hành cửa hàng từ xa, trơn tru, chi tiết",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Quản lý chi tiết phiếu thu chi, in xuất hóa đơn dễ dàng, báo cáo doanh thu lợi nhuận tự động cho từng nhân viên",
+    "CALCULATING_SALARY_UPDATED_EVERY_DAY": "Tính lương, hoa hồng bán hàng, hoa hồng tư vấn, lương dịch vụ cho từng nhân viên"
+  },
+  "Section2": {
+    "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Tiên phong cung cấp giải pháp quản lý, vận hành phòng khám online",
+    "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Báo cáo hoạt động phòng khám toàn diện, phát hiện cảnh báo sớm",
+    "APPLYING_AI_TECHNOLOGY": "Ứng dụng công nghệ 4.0 AI, tối ưu bán hàng, nâng cao trải nghiệm khách hàng",
+    "CAPTURE_CUSTOMER_NEEDS": "Nắm bắt nhu cầu, thay đổi của khách hàng đối với mô hình kinh doanh của bạn"
+  },
+  "Section3": {
+    "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Tối ưu quản lý, theo dõi và giao việc cho nhân viên, bác sĩ tại phòng khám",
+    "SMART_REPORT_STATISTICS": "Sắp xếp nhân viên cho từng khách hàng, phòng dịch vụ đang trống",
+    "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "Thông báo tới quản lý, bác sĩ tình trạng khách hàng đang chờ vào sử dụng dịch vụ, bắt đầu, kết thúc dịch vụ.",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Quản lý chi tiết phiếu thu chi, in xuất hóa đơn dễ dàng, báo cáo doanh thu lợi nhuận tự động cho từng nhân viên",
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Ghi nhận lương thưởng cho nhân viên trên hệ thống"
+  },
+  "Section4": {
+    "SELL_RIGHT_ON_THE_PHONE": "Tạo phiếu khám ngay trên điện thoại",
+    "SALES_MANAGEMENT_APPLICATION": "Ứng dụng quản lý bán hàng giúp phiếu khám nhanh chóng bằng cách dùng camera điện thoại quét mã vạch. Bạn có thể kết nối điện thoại với máy in đế in phiếu, hóa đơn cho khách ngay lập tức",
+    "VIEW_REPORTS_ANYTIME_ANYWHERE": "Xem báo cáo mọi lúc mọi nơi",
+    "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Phần mềm quan lý phòng khám trên điện thoại cho phép thống kê doanh thu tức thì của từng phòng khám cũng như  truy vấn lịch sử giao dịch. Bạn có thể quản lý kho vật tư, nha phẩm, labo, cửa hàng, nhân viên từ xa",
+    "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Tương thích với mọi thiết bị di động",
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Tải xuống SCLINIC trên cả hai hệ điều hành là Android và IOS. Trải nghiệm việc quản lý, điều hành phòng khám trên các thiết bị thông minh của bạn"
+  },
+  "BtnRegisterSSR": {
+    "REGISTER_NOW": "Đăng ký ngay"
+  }
+}

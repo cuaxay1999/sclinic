@@ -1,0 +1,72 @@
+{
+  "SelectLanguage": {
+    "APP_SETTING_SELECT_LANGUAGE": "Select language"
+  },
+  "AppFooter": {
+    "OWNERS_AND_DEVELOPMENT_UNIT": "Platform developer company",
+    "SFIN_SMART_JSC": "SMART TECHNOLOGY SFIN JOINT STOCK COMPANY",
+    "SFIN_ADDRESS": "Room 01, 07th floor, No. 89B Ho Den Lu Street, Hoang Van Thu Ward, Hoang Mai District, Hanoi City, Vietnam",
+    "LABEL_HOTLINE": "Hotline",
+    "SUPPORT_PHONE": "+84969877888",
+    "LABEL_EMAIL": "Email",
+    "SUPPORT_EMAIL": "letaidai@sfin.vn",
+    "COOPERATION_AND_CUSTOMER_CARE_UNIT": "Customer development partner",
+    "GOL_SOFTWARE_COMPANY_LIMITED": "SMART TECHNOLOGY SFIN JOINT STOCK COMPANY",
+    "GOL_PHONE_CONTACT": "No. 89B Ho Den Lu Street, Hoang Van Thu Ward, Hoang Mai District, Hanoi City, Vietnam",
+    "GOL_HOTLINE": "+84969877888",
+    "SSHOP_SUPPORT_EMAIL_GOLSOFT": "letaidai@sfin.vn",
+    "CERTIFICATION": "Certifications",
+    "BUSINESS_LIECENSE": "Business license",
+    "DATED": "dated",
+    "BY_BRO": "by Business Registration Office - Hanoi Department of Planning and Investment",
+    "LINK_APP_IOS": "https://apps.apple.com/vn/app/sshop-s%E1%BB%95-b%C3%A1n-h%C3%A0ng/id1629584008",
+    "LINK_APP_ANDROID": "https://play.google.com/store/apps/details?id=sfin.sshop.vn"
+  },
+  "AppBaner": {
+    "INTELLIGENT_SALES_MANAGEMENT_PLATFORM": "Comprehensive dental clinic management platform",
+    "SIMPLE_CONVENIENT_AND_EASY_TO_USE": "Simple, convenient and easy to use",
+    "OPTIMIZING_THE_SALES_PROCESS": "Standardize your clinic procedures",
+    "COMPREHENSIVE_CUSTOMER_CARE_SOLUTION": "Comprehensive customer care, loyalty and marketing solutions",
+    "LOG_IN": "Log in",
+    "USE_FREE": "Use free",
+    "SIGN_UP_TRIAL": "Sign up for a trial"
+  },
+  "Section1": {
+    "SHOP_HELP_YOU_MANAGE_YOUR_SALES_EASILY_EFFECTIVELY": "SCLINIC manages the whole clinic in just one software",
+    "EASY_TO_USE_ON_MULTIPLE_PLATFORMS": "Easy to use on multiple platforms",
+    "SMART_INTERFACE_USED_IN_COMPUTERS_SMART_DEVICES": "Smart interface used in computers, smart devices",
+    "EFFICIENT_AND_INTELLIGENT_WAREHOUSE_OPERATION": "Manage and operate warehouses, supplies, dental products, and laboratories safely, effectively and intelligently",
+    "QUICK_IMPORT_AND_EXPORT_OPERATIONS": "Quick import and export operations",
+    "QUICK_INPUT_AND_SALES_MANAGEMENT_INTERFACE": " Comprehensive management of appointments, services, medical records, visit history of customers",
+    "OPERATE_YOUR_CHAIN_AND_STORES_WITH_EASE": "Operate your chain and stores with ease",
+    "ACCURATE_TO_EACH_PRODUCT_UNIT": "Accurate to each productKeep track of the patient's medical history. Automatically remind customers before the service unit",
+    "SUPPORT_CUSTOMERS_TO_PLACE_ORDERS_REMOTELY": "Create prescriptions according to the medical record, remind the medication schedule automatically",
+    "OPERATE_THE_STORE_REMOTELY_SMOOTHLY_IN_DETAIL": "Operate the store remotely, smoothly, in detail",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Detailed management of receipts and payments, easy invoice printing, automatic revenue and profit reports for each employee",
+    "CALCULATING_SALARY_UPDATED_EVERY_DAY": "Calculating salary, sales commission, consulting commission, service salary for each employee"
+  },
+  "Section2": {
+    "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Pioneer in providing online clinic operation and management solutions for the clinic",
+    "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Comprehensive clinic activity report, early warning detection",
+    "APPLYING_AI_TECHNOLOGY": "Applying 4.0 AI technology, optimizing sales, improving customer experience",
+    "CAPTURE_CUSTOMER_NEEDS": "Capture customer needs, changes to your business model"
+  },
+  "Section3": {
+    "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Optimize management, tracking and assigning work to staff and doctors at the clinic",
+    "SMART_REPORT_STATISTICS": "Arrange staff for each customer, service room is empty",
+    "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "Notify management, doctor status of customers waiting to use the service, customers start and end the service.",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Detailed management of receipts and payments, easy invoice printing, automatic revenue and profit reports for each employee",
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Record salary and bonus for employees on the system"
+  },
+  "Section4": {
+    "SELL_RIGHT_ON_THE_PHONE": "Create an examination card right on your phone",
+    "SALES_MANAGEMENT_APPLICATION": "Sales management application helps to quickly check the examination card by using the phone camera to scan the barcode. You can connect your phone to the printer to print vouchers and invoices for guests immediately",
+    "VIEW_REPORTS_ANYTIME_ANYWHERE": "View reports anytime, anywhere",
+    "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Clinic management software on the phone allows instant revenue statistics of each clinic as well as querying transaction history. You can manage inventory of supplies, dental products, labs, stores, and remote employees",
+    "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Compatible with all mobile devices",
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Download SCLINIC on both Android and IOS operating systems. Experience managing and operating the clinic on your smart devices"
+  },
+  "BtnRegisterSSR": {
+    "REGISTER_NOW": "Register now"
+  }
+}

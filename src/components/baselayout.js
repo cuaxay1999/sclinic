@@ -10,18 +10,25 @@ import {
 } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import Cookies from "js-cookie";
-import { SSHOP_SPA_TOKEN } from "@/utils/constants/config";
+import {
+  NEXT_LOCALE,
+  SSHOP_SPA_TOKEN,
+  SSPA_LOCALE,
+} from "@/utils/constants/config";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-phone-number-input/style.css";
 import "antd/es/style/reset.css";
-import { actionChangeLanguage } from "@/app/(auth)/system/actions";
+import { actionChangeLanguage } from "@/app/[locale]/(auth)/system/actions";
 
 import {
   getLocaleConfigByCountryCode,
   updateCustomerConfigLanguage,
-} from "../app/(auth)/languageSetting/actions";
-import { actionSaveLanguage, getUserInfo } from "../app/(auth)/system/actions";
+} from "@/app/[locale]/(auth)/languageSetting/actions";
+import {
+  actionSaveLanguage,
+  getUserInfo,
+} from "@/app/[locale]/(auth)/system/actions";
 import { isEmpty } from "@/utils/helpers";
 
 import { navigatePages } from "@/utils/helpers/navigate";
@@ -36,11 +43,11 @@ export default function BaseLayout({ children }) {
   }
 
   const dispatch = useDispatch();
-  const pathName = usePathname();
-  const params = useParams();
+  // const pathName = usePathname();
+  // const params = useParams();
 
-  ["/ja", "/en", "/vi"].includes(pathName) &&
-    dispatch(actionChangeLanguage(params.locale));
+  // ["/ja", "/en", "/vi"].includes(pathName) &&
+  //   dispatch(actionChangeLanguage(params.locale));
 
   const locale = useSelector((state) => state.system.locale);
 
@@ -48,6 +55,14 @@ export default function BaseLayout({ children }) {
 
   const urlParams = useSearchParams();
   const paramUserToken = urlParams.get("user-token");
+
+  useEffect(() => {
+    let locale = Cookies.get(NEXT_LOCALE);
+
+    dispatch(actionChangeLanguage(locale));
+
+    console.log(locale);
+  }, []);
 
   useEffect(() => {
     let token = Cookies.get(SSHOP_SPA_TOKEN);
@@ -90,6 +105,7 @@ export default function BaseLayout({ children }) {
         texts = { ...texts, ...e };
       });
       dispatch(actionSaveLanguage(texts));
+      console.log(texts);
     }
   };
 
