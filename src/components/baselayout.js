@@ -43,11 +43,11 @@ export default function BaseLayout({ children }) {
   }
 
   const dispatch = useDispatch();
-  // const pathName = usePathname();
-  // const params = useParams();
+  const pathName = usePathname();
+  const params = useParams();
 
-  // ["/ja", "/en", "/vi"].includes(pathName) &&
-  //   dispatch(actionChangeLanguage(params.locale));
+  ["/ja", "/en", "/vi"].includes(pathName) &&
+    dispatch(actionChangeLanguage(params.locale));
 
   const locale = useSelector((state) => state.system.locale);
 
@@ -55,14 +55,6 @@ export default function BaseLayout({ children }) {
 
   const urlParams = useSearchParams();
   const paramUserToken = urlParams.get("user-token");
-
-  useEffect(() => {
-    let locale = Cookies.get(NEXT_LOCALE);
-
-    dispatch(actionChangeLanguage(locale));
-
-    console.log(locale);
-  }, []);
 
   useEffect(() => {
     let token = Cookies.get(SSHOP_SPA_TOKEN);
