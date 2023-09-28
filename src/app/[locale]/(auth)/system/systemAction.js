@@ -1,11 +1,11 @@
 import cookie from "js-cookie";
 import api from "@/utils/service/api";
 import * as actionType from "@/utils/constants/actions";
-import { SSPA_LOCALE } from "@/utils/constants/config";
+import { NEXT_LOCALE } from "@/utils/constants/config";
 import { isObject } from "lodash";
 
 export const actionChangeLanguage = (lang) => {
-  cookie.set(SSPA_LOCALE, lang);
+  cookie.set(NEXT_LOCALE, lang);
   return {
     type: actionType.CHANGE_LANGUAGE,
     payload: lang,

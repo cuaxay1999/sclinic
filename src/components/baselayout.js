@@ -10,11 +10,7 @@ import {
 } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import Cookies from "js-cookie";
-import {
-  NEXT_LOCALE,
-  SSHOP_SPA_TOKEN,
-  SSPA_LOCALE,
-} from "@/utils/constants/config";
+import { SSHOP_SPA_TOKEN } from "@/utils/constants/config";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-phone-number-input/style.css";
@@ -43,13 +39,9 @@ export default function BaseLayout({ children }) {
   }
 
   const dispatch = useDispatch();
-  const pathName = usePathname();
   const params = useParams();
 
-  ["/ja", "/en", "/vi"].includes(pathName) &&
-    dispatch(actionChangeLanguage(params.locale));
-
-  const locale = useSelector((state) => state.system.locale);
+  const locale = params.locale;
 
   const userInfo = useSelector((state) => state.profile.userInfo);
 
@@ -97,7 +89,6 @@ export default function BaseLayout({ children }) {
         texts = { ...texts, ...e };
       });
       dispatch(actionSaveLanguage(texts));
-      console.log(texts);
     }
   };
 

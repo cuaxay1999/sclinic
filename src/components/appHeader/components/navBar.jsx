@@ -8,27 +8,20 @@ import { getRouterByLocation } from "@/utils/helpers";
 import { useSelector } from "react-redux";
 import ROUTERS from "@/utils/constants/routers";
 import { usePathname } from "next/navigation";
-import { useRouter } from "next/router";
+import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
 const NavBar = (props) => {
   const { handleToggleMenuMobile } = props;
-  const router = useRouter;
   const pathname = usePathname();
   const texts = useSelector((state) => state.system.texts);
 
-  const itemMenu = ROUTERS.LANDING_PAGE.filter((it) => it.onMenu).map((it) => ({
-    label: texts[it?.label],
-    key: it?.name,
-    path: it?.path,
-    icon: typeof window !== "undefined" && window.isMobile ? it?.icon : null,
-  }));
+  const params = useParams();
+  const locale = params.locale;
 
-  const locale = useSelector((state) => state.system.locale);
-
-  const generateLink = (path, routeName) => {
-    return routeName === "HOME_PAGE" ? `/${locale}` : path;
+  const generateLink = (path) => {
+    return `/${locale}${path}`;
   };
 
   const itemButton = ROUTERS.LANDING_PAGE.filter((it) => it.onMenu).map(

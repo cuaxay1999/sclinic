@@ -1,9 +1,9 @@
 import cookie from "js-cookie";
-import { SSPA_LOCALE } from "@/utils/constants/config";
+import { NEXT_LOCALE } from "@/utils/constants/config";
 import * as actions from "@/utils/constants/actions";
 
 const initialState = {
-  locale: cookie.get(SSPA_LOCALE) || "vi",
+  locale: cookie.get(NEXT_LOCALE) || "vi",
   isLoading: false,
   texts: {},
 };
