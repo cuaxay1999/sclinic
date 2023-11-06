@@ -49,14 +49,16 @@
     "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Pioneer in providing online clinic operation and management solutions for the clinic",
     "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Comprehensive clinic activity report, early warning detection",
     "APPLYING_AI_TECHNOLOGY": "Applying 4.0 AI technology, optimizing sales, improving customer experience",
-    "CAPTURE_CUSTOMER_NEEDS": "Capture customer needs, changes to your business model"
+    "CAPTURE_CUSTOMER_NEEDS": "Capture customer needs, changes to your business model",
+    "REGISTER_NOW": "Register now"
   },
   "Section3": {
     "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Optimize management, tracking and assigning work to staff and doctors at the clinic",
     "SMART_REPORT_STATISTICS": "Arrange staff for each customer, service room is empty",
     "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "Notify management, doctor status of customers waiting to use the service, customers start and end the service.",
     "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Detailed management of receipts and payments, easy invoice printing, automatic revenue and profit reports for each employee",
-    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Record salary and bonus for employees on the system"
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Record salary and bonus for employees on the system",
+    "REGISTER_NOW": "Register now"
   },
   "Section4": {
     "SELL_RIGHT_ON_THE_PHONE": "Create an examination card right on your phone",
@@ -64,7 +66,8 @@
     "VIEW_REPORTS_ANYTIME_ANYWHERE": "View reports anytime, anywhere",
     "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Clinic management software on the phone allows instant revenue statistics of each clinic as well as querying transaction history. You can manage inventory of supplies, dental products, labs, stores, and remote employees",
     "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Compatible with all mobile devices",
-    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Download SCLINIC on both Android and IOS operating systems. Experience managing and operating the clinic on your smart devices"
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Download SCLINIC on both Android and IOS operating systems. Experience managing and operating the clinic on your smart devices",
+    "REGISTER_NOW": "Register now"
   },
   "BtnRegisterSSR": {
     "REGISTER_NOW": "Register now"

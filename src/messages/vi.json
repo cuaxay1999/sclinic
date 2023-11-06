@@ -49,14 +49,16 @@
     "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Tiên phong cung cấp giải pháp quản lý, vận hành phòng khám online",
     "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Báo cáo hoạt động phòng khám toàn diện, phát hiện cảnh báo sớm",
     "APPLYING_AI_TECHNOLOGY": "Ứng dụng công nghệ 4.0 AI, tối ưu bán hàng, nâng cao trải nghiệm khách hàng",
-    "CAPTURE_CUSTOMER_NEEDS": "Nắm bắt nhu cầu, thay đổi của khách hàng đối với mô hình kinh doanh của bạn"
+    "CAPTURE_CUSTOMER_NEEDS": "Nắm bắt nhu cầu, thay đổi của khách hàng đối với mô hình kinh doanh của bạn",
+    "REGISTER_NOW": "Đăng ký ngay"
   },
   "Section3": {
     "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Tối ưu quản lý, theo dõi và giao việc cho nhân viên, bác sĩ tại phòng khám",
     "SMART_REPORT_STATISTICS": "Sắp xếp nhân viên cho từng khách hàng, phòng dịch vụ đang trống",
     "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "Thông báo tới quản lý, bác sĩ tình trạng khách hàng đang chờ vào sử dụng dịch vụ, bắt đầu, kết thúc dịch vụ.",
     "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Quản lý chi tiết phiếu thu chi, in xuất hóa đơn dễ dàng, báo cáo doanh thu lợi nhuận tự động cho từng nhân viên",
-    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Ghi nhận lương thưởng cho nhân viên trên hệ thống"
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Ghi nhận lương thưởng cho nhân viên trên hệ thống",
+    "REGISTER_NOW": "Đăng ký ngay"
   },
   "Section4": {
     "SELL_RIGHT_ON_THE_PHONE": "Tạo phiếu khám ngay trên điện thoại",
@@ -64,7 +66,8 @@
     "VIEW_REPORTS_ANYTIME_ANYWHERE": "Xem báo cáo mọi lúc mọi nơi",
     "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Phần mềm quan lý phòng khám trên điện thoại cho phép thống kê doanh thu tức thì của từng phòng khám cũng như  truy vấn lịch sử giao dịch. Bạn có thể quản lý kho vật tư, nha phẩm, labo, cửa hàng, nhân viên từ xa",
     "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Tương thích với mọi thiết bị di động",
-    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Tải xuống SCLINIC trên cả hai hệ điều hành là Android và IOS. Trải nghiệm việc quản lý, điều hành phòng khám trên các thiết bị thông minh của bạn"
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Tải xuống SCLINIC trên cả hai hệ điều hành là Android và IOS. Trải nghiệm việc quản lý, điều hành phòng khám trên các thiết bị thông minh của bạn",
+    "REGISTER_NOW": "Đăng ký ngay"
   },
   "BtnRegisterSSR": {
     "REGISTER_NOW": "Đăng ký ngay"

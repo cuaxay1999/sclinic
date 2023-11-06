@@ -49,14 +49,16 @@
     "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "クリニック向けオンラインクリニック運営・管理ソリューションのパイオニア 4.0 販売ソリューションの提供におけるパイオニア",
     "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "包括的なクリニック活動レポート、早期警告検出",
     "APPLYING_AI_TECHNOLOGY": "4.0 AI テクノロジーの適用、販売の最適化、カスタマー エクスペリエンスの向上",
-    "CAPTURE_CUSTOMER_NEEDS": "顧客ニーズの把握、ビジネス モデルの変更"
+    "CAPTURE_CUSTOMER_NEEDS": "顧客ニーズの把握、ビジネス モデルの変更",
+    "REGISTER_NOW": "今すぐ登録"
   },
   "Section3": {
     "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "診療所のスタッフと医師の作業を追跡し、割り当てて管理を最適化します。",
     "SMART_REPORT_STATISTICS": "顧客ごとにスタッフを配置し、サービスルームは空です",
     "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "サービス利用を待っている顧客の管理者、医師の状況、顧客のサービス開始と終了を通知します。",
     "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "入出金の詳細な管理、簡単な請求書印刷、従業員ごとの自動収益レポート",
-    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "従業員の給与とボーナスをシステムに記録する"
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "従業員の給与とボーナスをシステムに記録する",
+    "REGISTER_NOW": "今すぐ登録"
   },
   "Section4": {
     "SELL_RIGHT_ON_THE_PHONE": "スマートフォン上で診察カードを作成できます",
@@ -64,7 +66,8 @@
     "VIEW_REPORTS_ANYTIME_ANYWHERE": "いつでもどこでもレポートを表示",
     "SALES_SOFTWARE_ON_THE_PHONE_WILL": "電話上のクリニック管理ソフトウェアを使用すると、各クリニックの収益統計を即座に取得できるだけでなく、取引履歴を照会することもできます。 消耗品、歯科用製品、研究室、店舗、リモート従業員の在庫を管理できます",
     "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "すべてのモバイルデバイスと互換性があります",
-    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "SCLNIC を Android と IOS の両方のオペレーティング システムにダウンロードします。 スマートデバイスでクリニックを管理・運営する経験"
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "SCLNIC を Android と IOS の両方のオペレーティング システムにダウンロードします。 スマートデバイスでクリニックを管理・運営する経験",
+    "REGISTER_NOW": "今すぐ登録"
   },
   "BtnRegisterSSR": {
     "REGISTER_NOW": "今すぐ登録"

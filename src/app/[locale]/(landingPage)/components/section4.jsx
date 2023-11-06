@@ -72,7 +72,7 @@ const Section4 = () => {
                 </Col>
               </Row>
               <Row>
-                <BtnRegisterSSR />
+                <BtnRegisterSSR txtBtn={t("REGISTER_NOW")} />
               </Row>
             </div>
           </Col>
