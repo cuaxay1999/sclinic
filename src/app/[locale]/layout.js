@@ -23,8 +23,15 @@ export const metadata = {
   keywords: ["SCLINIC", "phòng khám", "smart clinic", "ứng dụng quản lý"],
 };
 
-export default function RootLayout({ children, params }) {
+export default async function RootLayout({ children, params }) {
   const locale = useLocale();
+
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
 
   // Validate that the incoming `locale` parameter is a valid locale
   if (params.locale !== locale) {
@@ -46,7 +53,7 @@ export default function RootLayout({ children, params }) {
       <body>
         <RootStyleRegistry>
           <Provider>
-            <NextIntlClientProvider locale={locale}>
+            <NextIntlClientProvider locale={locale} messages={messages}>
               <BaseLayout className="app-container">{children}</BaseLayout>
               <div id="recaptcha-container"></div>
             </NextIntlClientProvider>
